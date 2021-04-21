@@ -1,7 +1,7 @@
-#makeGIF 
+# makeGIF 
 
 
-##installation
+## installation
 
 * in the directory where makeGif is, run 
 ```bash
@@ -11,5 +11,5 @@ sudo chmod +x makeGif.py
 
 
 
-##how to use
+## how to use
 
