@@ -1,4 +1,4 @@
-# makeGIF 
+# makeGIF
 
 Easily make GIF from images.
 
@@ -15,29 +15,31 @@ Here is an exemple :
 ```bash
 python3 makeGif.py name 100 png
 ```
+You can also use frames per second instead of image duration. To do this, put -fps before other arguments like in the example below :
+```bash
+python3 makeGif.py -fps name 24 png
+```
 
 You can also add this script to your path to easily call it from anywhere. Below is a procedure to do this on linux.
 
 ## Install on Linux
 
-* in the directory where makeGif is, run 
+* in the directory where makeGif is, run
 ```bash
 sudo chmod +x makeGif.py
 ```
-to add the proper permissions
+to make it executable.
 * Create a symbolic link to the script in /usr/local/bin/ by running
 ```bash
 sudo ln -s makeGif.py /usr/local/bin/makeGif
 ```
+* Or simply put in the appropriate directory
 
 Now you should be able to simply run the script in any directory like so
 ```bash
 makeGif name 100 png
 ```
 
-## Idea for new feature
-
-* Choose the image duration with a *frames per second* parameter
 
 
 
